@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="9600"
+            android:id="@+id/btn9600" android:layout_gravity="center_horizontal"/>
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="115200"
+            android:id="@+id/btn115200" android:layout_gravity="center_horizontal"/>
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="发送数据"
+            android:id="@+id/btnSend" android:layout_gravity="center_horizontal"/>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="vertical"
+                  android:layout_margin="4dp"
+                  android:layout_width="fill_parent"
+                  android:layout_height="fill_parent"
+                  android:layout_weight="1"
+            >
+
+        <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="4dp"
+                android:gravity="left|center"
+                >
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="4dp"
+                    >
+                <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text=""
+                        />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>
+
